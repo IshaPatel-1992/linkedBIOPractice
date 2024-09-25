@@ -95,6 +95,12 @@ main {
         border-width: 10px;
     }
 
+    .Portfolio1 {
+        display: flex ;    
+        justify-items: flex-end;
+    }
+    
+
     footer {
         align-items: center;
     }
