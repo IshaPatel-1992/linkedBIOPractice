@@ -83,7 +83,7 @@ main {
         transform: scale(1.05) rotate(-1deg);
     }
 
-    .Port1, .Port2 {
+    .Port1, .Port2, .Port3 {
         display: flex;
         flex-direction: column;
         background-color: rgb(189, 190, 212);
@@ -96,8 +96,7 @@ main {
     }
 
     .Portfolio1 {
-        display: flex ;    
-        justify-items: flex-end;
+        display: flex; flex-direction: row; justify-content: space-between; gap: 20px;
     }
     
 
