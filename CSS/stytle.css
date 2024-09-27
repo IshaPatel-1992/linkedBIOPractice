@@ -33,8 +33,6 @@ h2 {
     font-weight: 400;    
 }
 
-@media (max-width:768px) {
-
 figure {
     overflow: hidden;
     width: 200px;
@@ -47,7 +45,6 @@ figure {
     }
 }
 
-}
 
 main {
     gap:  20px;
