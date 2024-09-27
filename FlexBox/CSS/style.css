@@ -1,0 +1,35 @@
+body {
+    background-color: ivory;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    margin: 50px;
+    border: solid 3px;
+   
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.content {
+    display: flex ;    
+    align-items: center;   
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.QRCode {
+    display: flex ;       
+    justify-content: flex-end; 
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-size: 2em;
+}
