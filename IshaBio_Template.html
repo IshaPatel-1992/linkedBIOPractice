@@ -31,7 +31,9 @@
     min-height: 100%;
   }
 </style>
+<script lang="javascript">
 
+</script>
 <body>
   <!-- Sidebar with image -->
   <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width: 40%">
@@ -246,6 +248,14 @@
     function closeNav() {
       document.getElementById("mySidebar").style.display = "none";
     }
+
+    
+    function sendData() { 
+      const txtName = document.getElementById('txtName').value; 
+        // Redirect to the second page with data in the URL 
+        window.location.href = `IshaBio_Template_action.html?data=${encodeURIComponent(txtName)}`; 
+    } 
+    
   </script>
 </body>
 
