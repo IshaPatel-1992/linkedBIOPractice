@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="CSS/stytle1.css" />
+  
+  <title>Isha's Portfolio</title>
+  <style>
+    .user-img {
+      width: 100px;
+      border-radius: 100%;
+      border: 1px solid #eee;
+    }
+    body {
+    
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    color:white;
+    background: linear-gradient(to right, #30cfd0, #330867);
+    margin: 0;
+    height: 100vh;
+    gap: 20px;
+}
+  </style>
+</head>
+
+<body>
+
+  <div class="sidebar">
+    <div class="top">
+      <!-- Have some logo -->
+      <div class="logo">
+        <i class="bx bxl-codepen"></i>
+        <span></span>
+        <!-- Have some logo -->
+      </div>
+      <i class="bx bx-menu"><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.2rem" viewBox="0 0 24 24"><path fill="white" d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/></svg></i>
+    </div>
+    <div class="user">
+      <img src="Images/Isha.jpg" alt="It's Me" class="user-img">
+      <div>        
+          <p class="bold">Isha Patel</p>
+          <p>Full Stack Developer</p>               
+      </div>
+    </div>
+    <ul>
+      <li>
+        <a href="#">
+          <span class="nav-item">Dashboard</span>
+        </a>
+        <span class="tooltip">Dashboard</span>
+      </li>
+      <li>
+        <a href="#">
+          <span class="nav-item">About</span>
+        </a>
+        <span class="tooltip">About</span>
+      </li>
+      <li>
+        <a href="#">
+          <span class="nav-item">Skills</span>
+        </a>
+        <span class="tooltip">Skills</span>
+      </li>
+      <li>
+        <a href="#">
+          <span class="nav-item">Experience</span>
+        </a>
+        <span class="tooltip">Experience</span>
+      </li>
+      <li>
+        <a href="#">
+          <span class="nav-item">Education</span>
+        </a>
+        <span class="tooltip">Education</span>
+      </li>
+      <li>
+        <a href="#">
+          <span class="nav-item">Interest</span>
+        </a>
+        <span class="tooltip">Interest</span>
+      </li>
+      <li>
+        <a href="#">
+          <span class="nav-item">Awards</span>
+        </a>
+        <span class="tooltip">Awards</span>
+      </li>
+    </ul>
+  </div>
+
+  <!--<table>
+        <tr>
+          <td align="center"><header>
+              <figure>
+                <img src="Images/Isha.jpg" alt="Isha Patel" />
+              </figure>
+              <h1>Isha Patel</h1>
+              <h2>Full Stack Developer</h2>
+            </header></td>
+        </tr>
+    </table>-->
+  <!-- Main Section Starts -->
+  <!--<main>
+      <div>
+        <table>
+          <tr>
+            <td><a href="MyPortfolio.html" target="_blank">
+              <button onclick="MyPortfolio.html">My Portfolio</button>
+            </a></td>
+            <td><a href="Doc/LinkBioResume.pdf" target="_blank">
+              <button>Download Resume</button>
+            </a></td>
+            <td><a href="ContactME.html" target="_blank">
+              <button>Contact Me</button>
+            </a></td>
+          </tr>
+        </table>
+      </div>   -->
+  <!-- Footer Section Starts -->
+  <!--<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin: -24px">
+        <a href="https://www.linkedin.com/in/isha-patel-38866990/"><img src="Images/LinkedInIcon.png"
+            style="height: 40px; width: 40px; border-radius: 10px" /></a>
+        <a href="https://github.com/IshaPatel-1992/"><img src="Images/GitIcon.png"
+            style="height: 30px; width: 30px; border-radius: 10px" /></a>
+        <a href="mailto:patelisha1992@gmail.com"><img src="Images/EmailIcon.jpg"
+            style="height: 40px; width: 40px; border-radius: 10px" /></a>
+  
+        <p class="w3-medium">Powered by <strong> ISHA PATEL 2024</strong></p>
+      </footer> -->
+  <!--Footer Section Ends -->
+  <!--</main>
+    Main Section Ends here -->
+</body>
+<script>
+  let bta = document.querySelector('#btn')
+  let sidebar = document.querySelector('#sidebar')
+
+  btn.onClick = function () {
+    sidebar.classList.toggle('active');
+  }
+</script>
+
+</html>
