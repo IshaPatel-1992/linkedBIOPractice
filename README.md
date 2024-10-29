@@ -1,2 +1,2 @@
 # linkedBIOPractice
-Practice of Link tree BIO
+This contains Portfolio as Full Stack Developer
